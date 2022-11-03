@@ -14,10 +14,16 @@ and open the template in the editor.
 body{
     background-color: dimgray;
    
+   
 }
 .back{
     padding-left: 10px;
     padding-right: 10px;
+}
+
+footer{
+    padding-left:0px;
+    padding-right: 0px;
 }
 
 h1{
