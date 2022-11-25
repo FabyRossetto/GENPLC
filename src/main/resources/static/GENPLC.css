@@ -7,20 +7,22 @@ and open the template in the editor.
     Created on : 27/10/2022, 10:04:34
     Author     : Fabi
 */
+
 .bg-grey {
-    background-color: rgb(33, 34, 31);
+    background:linear-gradient(135deg, rgb(3, 5, 5) 40%, rgb(14, 109, 144) 100%);
+
+
 }
 
-body{
-    background-color: dimgray;
-   
-   
+.servicios,.redes{
+    background-color: #26647f;
 }
-.back{
-    padding-left: 10px;
-    padding-right: 10px;
+.contacto{
+    background-color: #31819A;
 }
-
+.clientes{
+    background-color: white;
+}
 footer{
     padding-left:0px;
     padding-right: 0px;
@@ -28,11 +30,87 @@ footer{
 
 h1{
     color:white;
+    font-family: georgia;
+}
+#clientes{
+    color:black;
 }
 form{
-  color:aliceblue;  
+    color:aliceblue;  
 }
 label{
-    font-family: sans-serif;
+    font-family: georgia;
     font-size: large;
+}
+.card-title,.card-text{
+    font-family: georgia;
+}
+.carousel-caption,.titulosCarrousel{
+    font-family: georgia;
+    color:white;
+    font-weight: initial;
+    font-size: xx-large;
+
+}
+.titulosCarrousel2{
+    font-family: georgia;
+    color:black;
+    font-weight: initial;
+    font-size: xx-large;
+
+}
+
+.abs-center{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+   
+}
+.figure-img{
+    filter: grayscale(0%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.figure-img:hover {
+    filter: contrast(300%);
+    width:60px;
+    height: 60px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+#logo{
+    -webkit-animation: 3s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+@media only screen and (max-width: 500px){
+
+    figcaption{
+        display:none;
+    }
+    .figure-img:hover {
+        filter: contrast(300%);
+        width:42px;
+        height: 42px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
 }
