@@ -1,6 +1,4 @@
 # GENPLC
-Pagina web para una empresa de automatización, usando Java, SpringBoot, MySQL ,HTML, CSS, Bootstrap y FormSubmit.
-#Proyecto con Spring
 
 Descripcion: Es una pagina web de una empresa de automatizacion, tiene mas que nada front,cuenta con links para conectarse y seguir a la empresa,con el objetivo de realizar consultas o ver los proyectos que ha realizado.
 Las consultas pueden quedar en una base de datos, y son enviadas al e-mail de la empresa mediante FormSubmit
