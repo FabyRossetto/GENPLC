@@ -59,12 +59,19 @@ label{
     font-size: xx-large;
 
 }
+#btnEnviar{
+    border-width: thick;
+    width: 10%;
+}
+#btnCancelar{
+    width: 10%;
+}
 
 .abs-center{
     display:flex;
     align-items: center;
     justify-content:center;
-   
+
 }
 .figure-img{
     filter: grayscale(0%);
@@ -86,31 +93,39 @@ label{
 }
 
 @keyframes rotate {from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}}
-@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
-  to {-webkit-transform: rotate(360deg);}}
-#logo{
-    -webkit-animation: 3s rotate linear infinite;
-    animation: 3s rotate linear infinite;
-    
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-}
+                   to {transform: rotate(360deg);}}
+                   @-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+                                              to {-webkit-transform: rotate(360deg);}}
+                                              #logo{
+                                                  -webkit-animation: 3s rotate linear infinite;
+                                                  animation: 3s rotate linear infinite;
 
-@media only screen and (max-width: 500px){
+                                                  -webkit-transform-origin: 50% 50%;
+                                                  transform-origin: 50% 50%;
+                                              }
 
-    figcaption{
-        display:none;
-    }
-    .figure-img:hover {
-        filter: contrast(300%);
-        width:42px;
-        height: 42px;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        -ms-transition: all 0.3s;
-        -o-transition: all 0.3s;
-        transition: all 0.3s;
-    }
+                                              @media only screen and (max-width: 500px){
 
-}
+                                                  figcaption{
+                                                      display:none;
+                                                  }
+                                                  .figure-img:hover {
+                                                      filter: contrast(300%);
+                                                      width:42px;
+                                                      height: 42px;
+                                                      -webkit-transition: all 0.3s;
+                                                      -moz-transition: all 0.3s;
+                                                      -ms-transition: all 0.3s;
+                                                      -o-transition: all 0.3s;
+                                                      transition: all 0.3s;
+                                                  }
+                                                  #btnEnviar{
+                                                      width: 25%;
+                                                  }
+                                                  #btnCancelar{
+                                                      width: 25%;
+                                                  }
+
+
+                                              }
+                                             
